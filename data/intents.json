@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hey",
+        "hello",
+        "good morning",
+        "good evening",
+        "hiya",
+        "yo"
+      ],
+      "responses": [
+        "Hey! How can I help you today?",
+        "Hello! What can I do for you?",
+        "Hi there \ud83d\udc4b How\u2019s it going?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "see you",
+        "goodbye",
+        "catch you later",
+        "talk to you later"
+      ],
+      "responses": [
+        "Bye! Have a great day!",
+        "See you soon \ud83d\udc4b",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "ty",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime \ud83d\ude0a",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "tell me your name"
+      ],
+      "responses": [
+        "I'm a Flask + NLP chatbot.",
+        "You can call me FlaskBot \ud83e\udd16"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "can you help me",
+        "i need assistance",
+        "support"
+      ],
+      "responses": [
+        "Sure\u2014tell me what you\u2019re trying to do.",
+        "Absolutely! What do you need help with?"
+      ]
+    },
+    {
+      "tag": "smalltalk.howareyou",
+      "patterns": [
+        "how are you",
+        "how's it going",
+        "how are you doing"
+      ],
+      "responses": [
+        "I\u2019m running perfectly. How about you?",
+        "Doing great\u2014ready to chat!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I got that. Could you rephrase?",
+        "Hmm, I didn\u2019t understand. Try asking another way."
+      ]
+    }
+  ]
+}
